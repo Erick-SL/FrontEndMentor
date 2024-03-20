@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: rgb(245, 222, 207);
+    font-family: outfit;
+    
+}
+div#conteudo{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+div#conteudo img.omelete{
+    width: 100%;
+    border-radius: 10px;
+}
+
+div#conteudo .receita h1{
+    font-family: young-serif;
+    margin: 15px 0;
+    font-weight: 100;
+}
+
+div#conteudo .preparacao{
+    margin: 25px;
+}
+
+div#conteudo .preparacao h4{
+    color: rgb(204, 0, 255);
+    font-size: 20px;
+}
+
+.preparacao li::marker {
+    color: rgb(204, 0, 255);
+}
+
+div#conteudo span{
+    font-weight: bold;
+}
+
+div#conteudo li{
+    margin: 10px;
+    font-size: 10xp;
+}
+
+div#conteudo h2{
+    font-family: young-serif;
+    font-weight:100;
+}
+
+div#conteudo .ingredientes, .instrucoes{
+    border-bottom: 1px solid;
+    border-color:rgba(77, 77, 77, 0.137);
+    padding: 15px 0px !important;
+}
+
+div#conteudo .ingredientes h2, .instrucoes h2, .nutricional h2, .color{
+    color: rgb(134, 61, 1);
+}
+
+.nutricional h2{
+    margin-bottom: 5px;
+}
+.nutricional{
+ 
+    padding: 15px 0px !important;
+    
+}
+div#conteudo .ingredientes ul, .instrucoes ol{
+    margin-left: 15px;
+}
+
+.ingredientes li::marker, .instrucoes li::marker {
+    color: rgb(134, 61, 1);
+}
+
+.nutricional table{
+    padding: 10px;
+    width: 100%;
+}
+
+.nutricional table tr td{
+    padding:0.5em;
+    border-bottom:1px solid #ccc; 
+}
+
+
+.attribution{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.attribution a{
+    color: rgb(195, 0, 255);
+}
