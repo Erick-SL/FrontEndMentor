@@ -112,6 +112,7 @@ div#conteudo .ingredientes ul, .instrucoes ol{
     color: white;
     padding: 10px;
     font-size: 25px;
+    text-align: center;
 }
 
 .attribution a{
